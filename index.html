@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
+    <title>নিহাল আহমেদ নাজমুল - সোশ্যাল মিডিয়া এক্সপার্ট</title>
+    <link rel="icon" type="image/x-icon" href="digitaltube.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="digitaltube.ico">
-    <title>নিহাল আহমেদ নাজমুল - সোশ্যাল মিডিয়া মার্কেটিং এক্সপার্ট, ডিজিটাল প্রমোশন সার্ভিস</title>
-
     <meta name="description" content="নিহাল আহমেদ নাজমুল একজন অভিজ্ঞ সোশ্যাল মিডিয়া এক্সপার্ট। আপনার ব্যবসা ও ব্র্যান্ডের জন্য Facebook, Instagram, Twitter এ টার্গেটেড অ্যাডভার্টাইজিং, ভেরিফাইড ব্যাজ সাবস্ক্রিপশন এবং কন্টেন্ট ম্যানেজমেন্ট সার্ভিস পান। বিনামূল্যে পরামর্শের জন্য যোগাযোগ করুন।">
     <meta name="keywords" content="নিহাল আহমেদ নাজমুল, সোশ্যাল মিডিয়া এক্সপার্ট, ডিজিটাল মার্কেটিং, সোশ্যাল মিডিয়া অ্যাডভার্টাইজিং, ফেসবুক অ্যাডস, ইনস্টাগ্রাম অ্যাডস, হোয়াটসঅ্যাপ মার্কেটিং, টেলিগ্রাম মার্কেটিং, টুইটার মার্কেটিং, থ্রেডস মার্কেটিং, ভেরিফাইড ব্যাজ, ফেসবুক ভেরিফিকেশন, ইনস্টাগ্রাম ভেরিফিকেশন, টুইটার ভেরিফিকেশন, সোশ্যাল মিডিয়া ম্যানেজমেন্ট, ডিজিটাল প্রমোশন, বাংলাদেশ সোশ্যাল মিডিয়া এক্সপার্ট, অনলাইন মার্কেটিং">
     <meta name="author" content="Nihal Ahmed Nazmul">
-
     <meta property="og:title" content="নিহাল আহমেদ নাজমুল - সোশ্যাল মিডিয়া এক্সপার্ট">
     <meta property="og:description" content="নিহাল আহমেদ নাজমুল একজন অভিজ্ঞ সোশ্যাল মিডিয়া এক্সপার্ট। আপনার ব্যবসা ও ব্র্যান্ডের জন্য Facebook, Instagram, Twitter এ টার্গেটেড অ্যাডভার্টাইজিং, ভেরিফাইড ব্যাজ সাবস্ক্রিপশন এবং কন্টেন্ট ম্যানেজমেন্ট সার্ভিস পান।">
     <meta property="og:image" content="https://www.nihalahmednazmul.com/profile.jpg"> <meta property="og:url" content="https://www.nihalahmednazmul.com/"> <meta property="og:type" content="website">
@@ -18,52 +17,538 @@
     <meta name="twitter:description" content="নিহাল আহমেদ নাজমুল একজন অভিজ্ঞ সোশ্যাল মিডিয়া এক্সপার্ট। আপনার ব্যবসা ও ব্র্যান্ডের জন্য Facebook, Instagram, Twitter এ টার্গেটেড অ্যাডভার্টাইজিং, ভেরিফাইড ব্যাজ সাবস্ক্রিপশন এবং কন্টেন্ট ম্যানেজমেন্ট সার্ভিস পান।">
     <meta name="twitter:image" content="https://www.nihalahmednazmul.com/profile.jpg"> <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-
         body {
             font-family: 'Inter', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9fafb;
-            color: #374151;
+            background-color: #f9fafb; 
+            color: #374151; 
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
 
+        .container {
+            max-width: 1280px; 
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1rem; 
+            padding-right: 1rem; 
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInRight {
+            from { opacity: 0; transform: translateX(20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes fadeInLeft {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes blob {
+            0% { transform: translate(0px, 0px) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 20px) scale(0.9); }
+            100% { transform: translate(0px, 0px) scale(1); }
+        }
+
+        .animate-fade-in-up { animation: fadeInUp 1s ease-out forwards; }
+        .animate-fade-in-right { animation: fadeInRight 1s ease-out forwards; }
+        .animate-fade-in-left { animation: fadeInLeft 1s ease-out forwards; }
+        .animate-blob { animation: blob 7s infinite cubic-bezier(0.6, 0.01, 0.4, 1); }
+        .animation-delay-2000 { animation-delay: 2s; }
+        .animation-delay-4000 { animation-delay: 4s; }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            z-index: 50;
+            transition: all 0.3s ease-in-out;
+            background-color: transparent;
+            padding-top: 1.25rem; 
+            padding-bottom: 1.25rem; 
+        }
+
+        .navbar.scrolled {
+            background-color: #ffffff; 
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+            padding-top: 0.75rem; 
+            padding-bottom: 0.75rem; 
+        }
+
+        .navbar .company-branding {
+            display: flex;
+            align-items: center;
+            text-decoration: none; 
+        }
+
+        .navbar .company-logo {
+            width: 2.5rem; 
+            height: 2.5rem; 
+            margin-right: 0.5rem; 
+            border-radius: 0.25rem; 
+            object-fit: contain; 
+        }
+
+        .navbar .company-name {
+            font-size: 1.25rem; 
+            font-weight: 700; 
+            color: #ffffff; 
+            transition: color 0.3s ease-in-out; 
+        }
+
+        .navbar.scrolled .company-name {
+            color: #111827; 
+        }
+
+        .navbar .nav-links {
+            display: none; 
+            gap: 1.5rem; 
+        }
+
+        .navbar .nav-link {
+            color: #374151; 
+            text-decoration: none;
+            font-weight: 500; 
+            transition: color 0.3s ease-in-out;
+        }
+
+        .navbar .nav-link:hover {
+            color: #2563eb; 
+        }
+
+        .navbar .mobile-menu-button {
+            display: block; 
+            color: #374151; 
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .navbar .mobile-menu-button svg {
+            width: 1.5rem; 
+            height: 1.5rem; 
+        }
+
+        .hero-section {
+            position: relative;
+            background: linear-gradient(to right, #2563eb, #4f46e5); 
+            color: #ffffff; 
+            padding-top: 6rem; 
+            padding-bottom: 6rem; 
+            overflow: hidden;
+        }
+        @media (min-width: 768px) {
+            .hero-section {
+                padding-top: 8rem; 
+                padding-bottom: 8rem; 
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center; 
+            margin-bottom: 2.5rem; 
+        }
+        @media (min-width: 768px) {
+            .hero-content {
+                flex-direction: row; 
+                justify-content: space-between; 
+                text-align: left; 
+                margin-bottom: 0; 
+            }
+        }
+
+        .hero-text {
+            width: 100%; 
+            margin-bottom: 2.5rem; 
+        }
+        @media (min-width: 768px) {
+            .hero-text {
+                margin-bottom: 0; 
+            }
+        }
+
+        .hero-text h1 {
+            font-size: 2.25rem; 
+            font-weight: 800; 
+            line-height: 1.25; 
+            margin-bottom: 1rem; 
+        }
+        @media (min-width: 768px) {
+            .hero-text h1 {
+                font-size: 3.75rem; 
+            }
+        }
+
+        .hero-text p {
+            font-size: 1.25rem; 
+            font-weight: 300; 
+            margin-bottom: 2rem; 
+        }
+        @media (min-width: 768px) {
+            .hero-text p {
+                font-size: 1.5rem; 
+            }
+        }
+
+        .hero-text .cta-button {
+            display: inline-block;
+            background-color: #ffffff; 
+            color: #2563eb; 
+            font-weight: 600; 
+            padding: 0.75rem 2rem; 
+            border-radius: 9999px; 
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .hero-text .cta-button:hover {
+            background-color: #f3f4f6; 
+            transform: scale(1.05); 
+        }
+
+        .hero-image-container {
+            width: 100%; 
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-image {
+            border-radius: 9999px; 
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); 
+            border: 4px solid #ffffff; 
+            object-fit: cover;
+            width: 16rem; 
+            height: 16rem; 
+        }
+        @media (min-width: 768px) {
+            .hero-image {
+                width: 20rem; 
+                height: 20rem; 
+            }
+        }
+        @media (min-width: 1024px) {
+            .hero-image {
+                width: 24rem; 
+                height: 24rem; 
+            }
+        }
+
+        .hero-background-blobs {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero-background-blobs div {
+            position: absolute;
+            border-radius: 9999px; 
+            opacity: 0.2; 
+        }
+
+        .blob-1 {
+            width: 10rem; 
+            height: 10rem; 
+            background-color: #3b82f6; 
+            top: 2.5rem; 
+            left: 2.5rem; 
+        }
+
+        .blob-2 {
+            width: 15rem; 
+            height: 15rem; 
+            background-color: #6366f1; 
+            bottom: 5rem; 
+            right: 5rem; 
+        }
+
+        .blob-3 {
+            width: 13rem; 
+            height: 13rem; 
+            background-color: #60a5fa; 
+            top: 25%; 
+            right: 25%; 
+        }
+
+        section {
+            padding-top: 4rem; 
+            padding-bottom: 4rem; 
+        }
+        @media (min-width: 768px) {
+            section {
+                padding-top: 6rem; 
+                padding-bottom: 6rem; 
+            }
+        }
+
+        section h2 {
+            font-size: 1.875rem; 
+            font-weight: 700; 
+            color: #111827; 
+            margin-bottom: 1.5rem; 
+            text-align: center;
+        }
+        @media (min-width: 768px) {
+            section h2 {
+                font-size: 2.25rem; 
+            }
+        }
+
+        .about-section {
+            background-color: #ffffff; 
+        }
+
+        .about-content {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            gap: 3rem; 
+        }
+        @media (min-width: 768px) {
+            .about-content {
+                flex-direction: row; 
+            }
+        }
+
+        .about-image-container {
+            width: 100%; 
+        }
+
+        .about-image {
+            border-radius: 0.5rem; 
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); 
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .about-text {
+            width: 100%; 
+            text-align: center; 
+        }
+        @media (min-width: 768px) {
+            .about-text {
+                text-align: left; 
+            }
+        }
+
+        .about-text p {
+            font-size: 1.125rem; 
+            color: #374151; 
+            margin-bottom: 1rem; 
+        }
+
+        .services-section {
+            background-color: #f3f4f6; 
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr; 
+            gap: 2rem; 
+        }
+        @media (min-width: 768px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr); 
+            }
+        }
+        @media (min-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(3, 1fr); 
+            }
+        }
+
+        .service-card {
+            background-color: #ffffff; 
+            border-radius: 0.5rem; 
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+            padding: 1.5rem; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05); 
+        }
+
+        .service-card .icon {
+            margin-bottom: 1rem; 
+        }
+
+        .service-card h3 {
+            font-size: 1.25rem; 
+            font-weight: 600; 
+            color: #111827; 
+            margin-bottom: 0.75rem; 
+        }
+
+        .service-card p {
+            color: #374151; 
+        }
+
+        .social-links-section {
+            background-color: #ffffff; 
+            text-align: center;
+        }
+
+        .social-links-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem; 
+        }
+
+        .social-link-button {
+            display: inline-flex;
+            align-items: center;
+            color: #ffffff; 
+            font-weight: 600; 
+            padding: 0.75rem 1.5rem; 
+            border-radius: 9999px; 
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            white-space: nowrap; 
+        }
+
+        .social-link-button:hover {
+            opacity: 0.9; 
+            transform: scale(1.05); 
+        }
+
+        .social-link-button svg {
+            width: 1.5rem; 
+            height: 1.5rem; 
+            margin-right: 0.5rem; 
+        }
+
+        .bg-blue-600 { background-color: #2563eb; }
+        .bg-blue-700 { background-color: #1d4ed8; }
+        .bg-green-500 { background-color: #22c55e; }
+        .bg-purple-600 { background-color: #7c3aed; }
+        .bg-pink-500 { background-color: #ec4899; }
+        .bg-gray-800 { background-color: #1f2937; }
+        .text-blue-600 { color: #2563eb; }
+        .text-yellow-500 { color: #eab308; }
+        .text-green-500 { color: #22c55e; }
+
+        .contact-section {
+            background-color: #f3f4f6; 
+            text-align: center;
+        }
+
+        .contact-section p {
+            font-size: 1.125rem; 
+            color: #374151; 
+            margin-bottom: 2rem; 
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem; 
+            font-size: 1.125rem; 
+        }
+
+        .contact-info a {
+            display: inline-flex;
+            align-items: center;
+            background-color: #22c55e; 
+            color: #ffffff; 
+            font-weight: 600; 
+            padding: 0.75rem 1.5rem; 
+            border-radius: 9999px; 
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .contact-info a:hover {
+            background-color: #16a34a; 
+            transform: scale(1.05); 
+        }
+
+        .contact-info a svg {
+            width: 1.25rem; 
+            height: 1.25rem; 
+            margin-right: 0.5rem; 
+        }
+
+        footer {
+            background-color: #1f2937; 
+            color: #ffffff; 
+            padding-top: 2rem; 
+            padding-bottom: 2rem; 
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .navbar .nav-links {
+                display: flex; 
+            }
+            .navbar .mobile-menu-button {
+                display: none; 
+            }
+            .navbar .container {
+                justify-content: space-between; 
+            }
+        }
+        @media (max-width: 767px) {
+            .navbar .container {
+                justify-content: space-between; 
+            }
+            .navbar .company-branding {
+                margin-right: auto; 
+            }
+            .navbar .nav-links {
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: white;
+                padding: 1rem 0;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                display: none; 
+            }
+            .navbar .nav-link {
+                padding: 0.5rem 1rem;
+                text-align: center;
+            }
+        }
     </style>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "নিহাল আহমেদ নাজমুল",
-      "url": "https://www.nihalahmednazmul.com/",
-      "image": "https://www.nihalahmednazmul.com/profile.jpg",
-      "sameAs": [
-        "https://www.facebook.com/rxpinikboy",
-        "https://www.facebook.com/Nihal.Ahmed.Nazmul",
-        "https://www.whatsapp.com/channel/0029Vb5dFRjF6sn31Kcxru1q",
-        "https://www.instagram.com/nihal.ahmed.nazmul",
-        "https://x.com/NihalAhmedNazmu"
-      ],
-      "jobTitle": "Social Media Expert",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Digital Tube"
-      },
-      "alumniOf": "আপনার বিশ্ববিদ্যালয়ের নাম (যদি থাকে)", 
-      "birthPlace": "আপনার জন্মস্থান (যদি থাকে)",
-      "nationality": "আপনার জাতীয়তা (যদি থাকে)",
-      "description": "আমি নিহাল আহমেদ নাজমুল, একজন অভিজ্ঞ সোশ্যাল মিডিয়া এক্সপার্ট। ডিজিটাল জগতে আপনার ব্যবসার প্রচার ও প্রসার ঘটাতে আমি প্রতিশ্রুতিবদ্ধ। সোশ্যাল মিডিয়ার পাওয়ারকে কাজে লাগিয়ে আপনার ব্র্যান্ডকে নতুন উচ্চতায় নিয়ে যাওয়াই আমার লক্ষ্য।"
-    }
-    </script>
-
-    </head>
+</head>
 <body>
 
     <nav class="navbar" id="main-navbar">
         <div class="container flex items-center justify-between">
-            <a href="#" class="company-branding">
-                <img src="digitaltube.jpg" alt="ডিজিটাল টিউব লোগো" class="company-logo"> <span class="company-name">Digital Tube <img src="blue.png" height="15" alt="ভেরিফাইড ব্যাজ"> </span> </a>
+            <a href="#" class="company-branding"> 
+                <img src="digitaltube.jpg" alt="Digital Tube Logo" class="company-logo">
+                <span class="company-name">Digital Tube <img src="blue.png" height="15"> </span>
+            </a>
             <div class="nav-links" id="nav-links-desktop">
                 <a href="#about" class="nav-link">আমি কে?</a>
                 <a href="#services" class="nav-link">আমার সেবা সমূহ</a>
@@ -89,10 +574,11 @@
                 </a>
             </div>
             <div class="hero-image-container animate-fade-in-right">
+
                 <img
-                    src="profile.jpg"
-                    alt="নিহাল আহমেদ নাজমুল, সোশ্যাল মিডিয়া এক্সপার্ট"
-                    class="hero-image"
+                  src="profile.jpg"
+                  alt="Nihal Ahmed Nazmul"
+                  class="hero-image"
                 />
             </div>
         </div>
@@ -108,9 +594,9 @@
         <div class="container about-content">
             <div class="about-image-container animate-fade-in-left">
                 <img
-                    src="https://placehold.co/600x400/E0F2F7/000000?text=About+Nihal"
-                    alt="নিহাল আহমেদ নাজমুল সম্পর্কে"
-                    class="about-image"
+                  src="https://placehold.co/600x400/E0F2F7/000000?text=About+Nihal"
+                  alt="Nihal Ahmed Nazmul - About"
+                  class="about-image"
                 />
             </div>
             <div class="about-text animate-fade-in-right">
@@ -127,6 +613,7 @@
             <div class="services-grid">
                 <div class="service-card">
                     <div class="icon">
+
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-600"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
                     </div>
                     <h3>সোশ্যাল মিডিয়া অ্যাডভার্টাইজিং সার্ভিস</h3>
@@ -134,6 +621,7 @@
                 </div>
                 <div class="service-card">
                     <div class="icon">
+
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-yellow-500"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                     </div>
                     <h3>ভেরিফাইড ব্যাজ সাবস্ক্রিপশন</h3>
@@ -141,6 +629,7 @@
                 </div>
                 <div class="service-card">
                     <div class="icon">
+
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
                     </div>
                     <h3>অন্যান্য সোশ্যাল মিডিয়া সার্ভিস</h3>
@@ -155,26 +644,33 @@
             <h2>আমার সোশ্যাল মিডিয়া লিংকস</h2>
             <div class="social-links-grid">
                 <a href="https://www.facebook.com/rxpinikboy" target="_blank" rel="noopener noreferrer" class="social-link-button bg-blue-600">
+
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
                     <span>Facebook Page</span>
                 </a>
                 <a href="https://www.facebook.com/Nihal.Ahmed.Nazmul" target="_blank" rel="noopener noreferrer" class="social-link-button bg-blue-700">
+
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
                     <span>Personal ID</span>
                 </a>
                 <a href="https://www.whatsapp.com/channel/0029Vb5dFRjF6sn31Kcxru1q" target="_blank" rel="noopener noreferrer" class="social-link-button bg-green-500">
+
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
                     <span>WhatsApp Channel (কাজের আপডেট)</span>
                 </a>
                 <a href="https://www.facebook.com/groups/560845396938685" target="_blank" rel="noopener noreferrer" class="social-link-button bg-purple-600">
+
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
                     <span>Customer Review Group</span>
                 </a>
+
                 <a href="https://www.instagram.com/nihal.ahmed.nazmul" target="_blank" rel="noopener noreferrer" class="social-link-button bg-pink-500">
+
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                     <span>Instagram</span>
                 </a>
                 <a href="https://x.com/NihalAhmedNazmu" target="_blank" rel="noopener noreferrer" class="social-link-button bg-gray-800">
+
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.4-1.2 2.6-2.8 2.6-2.8z"></path></svg>
                     <span>Twitter (X)</span>
                 </a>
@@ -187,11 +683,12 @@
             <h2>যোগাযোগ</h2>
             <p>আপনার ব্যবসার জন্য একটি বিনামূল্যে পরামর্শের জন্য আজই যোগাযোগ করুন!</p>
             <div class="contact-info">
-                <p><strong>ফোন:</strong> +8801746641081</p>
-                <p><strong>ইমেইল:</strong> nihalahmednazmul@gmail.com</p>
+                <p><strong>ফোন:</strong> +8801746641081</p> 
+                <p><strong>ইমেইল:</strong> nihalahmednazmul@gmail.com</p> 
                 <a href="https://wa.me/8801746641081"
-                    target="_blank"
-                    rel="noopener noreferrer">
+                   target="_blank"
+                   rel="noopener noreferrer">
+
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
                     WhatsApp এ মেসেজ করুন
                 </a>
@@ -206,6 +703,34 @@
     </footer>
 
     <script>
+    #seo
+        {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "নিহাল আহমেদ নাজমুল",
+      "url": "https://www.nihalahmednazmul.com/",
+      "image": "https://www.nihalahmednazmul.com/profile.jpg",
+      "sameAs": [
+        "https://www.facebook.com/rxpinikboy",
+        "https://www.facebook.com/Nihal.Ahmed.Nazmul",
+        "https://www.whatsapp.com/channel/0029Vb5dFRjF6sn31Kcxru1q",
+        "https://www.instagram.com/nihal.ahmed.nazmul",
+        "https://x.com/NihalAhmedNazmu"
+      ],
+      "jobTitle": "Social Media Expert",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Digital Tube"
+      },
+      "alumniOf": "Munshiganj College. Katakhali", 
+      "birthPlace": "Munshiganj, Dhaka, Bangladesh",
+      "nationality": "Bengali",
+      "description": "আমি নিহাল আহমেদ নাজমুল, একজন অভিজ্ঞ সোশ্যাল মিডিয়া এক্সপার্ট। ডিজিটাল জগতে আপনার ব্যবসার প্রচার ও প্রসার ঘটাতে আমি প্রতিশ্রুতিবদ্ধ। সোশ্যাল মিডিয়ার পাওয়ারকে কাজে লাগিয়ে আপনার ব্র্যান্ডকে নতুন উচ্চতায় নিয়ে যাওয়াই আমার লক্ষ্য।"
+    }
+    #seo
+
+
+
         document.addEventListener('DOMContentLoaded', () => {
             const fullName = "নিহাল আহমেদ নাজমুল";
             const heroNameElement = document.getElementById('animated-name-hero');
@@ -214,11 +739,11 @@
             function typeName() {
                 if (index < fullName.length) {
                     const char = fullName.charAt(index);
-                    if (heroNameElement) {
+                    if (heroNameElement) { 
                         heroNameElement.textContent += char;
                     }
                     index++;
-                    setTimeout(typeName, 100);
+                    setTimeout(typeName, 100); 
                 }
             }
 
@@ -246,6 +771,7 @@
             const navLinksDesktop = document.getElementById('nav-links-desktop');
 
             mobileMenuToggle.addEventListener('click', () => {
+
                 if (navLinksDesktop.style.display === 'flex') {
                     navLinksDesktop.style.display = 'none';
                 } else {
@@ -263,7 +789,7 @@
 
             document.querySelectorAll('#nav-links-desktop .nav-link').forEach(link => {
                 link.addEventListener('click', () => {
-                    if (window.innerWidth < 768) {
+                    if (window.innerWidth < 768) { 
                         navLinksDesktop.style.display = 'none';
                     }
                 });
@@ -278,7 +804,7 @@
                     navLinksDesktop.style.padding = '0';
                     navLinksDesktop.style.boxShadow = 'none';
                 } else {
-                    navLinksDesktop.style.display = 'none';
+                    navLinksDesktop.style.display = 'none'; 
                 }
             });
         });
